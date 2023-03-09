@@ -22,5 +22,6 @@ class beolvas{
         b = billentyu.nextInt(); 
         out.print("Kérem a téglatest magasságát: "); 
         c = billentyu.nextInt(); 
+        billentyu.close();
     } 
 }

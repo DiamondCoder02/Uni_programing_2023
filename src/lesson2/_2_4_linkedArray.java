@@ -28,5 +28,7 @@ public class _2_4_linkedArray {
         out.print("Kérem az új nevet: "); 
         nev = billentyu.next(); 
         nevek.set(szam, nev); 
-        out.println(nevek); } 
+        out.println(nevek); 
+        billentyu.close();
+    } 
 }

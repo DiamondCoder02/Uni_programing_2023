@@ -13,6 +13,7 @@ public class classes {
         int b = billentyu.nextInt(); 
         out.print("Kérem a téglatest magasságát: "); 
         int c = billentyu.nextInt(); 
+        billentyu.close();
         out.printf("\nA téglatest térfogata = %d\n", t.tegla(a, b, c)); 
         out.printf("A téglatest felülete = %d\n", t.area(a, b, c));
     } 

@@ -28,7 +28,8 @@ public class types_testing {
         out.println("Összehasonlítás (kisebbhez a nagyobbat): " + b.compareTo(a)); 
         out.println("Kisebb = " + Integer.min(a, b)); 
         Float f1 = Float.valueOf("5.2e3"); 
-        Float f2 = new Float(4.1); 
+        // Float f2 = new Float(4.1); 
+        Float f2 = Float.valueOf("5.2e3"); 
         out.println("f1 = " + f1 + " f2 = " + f2); 
         out.println("Kisebb = " + Float.min(f1, f2)); 
         out.println("Nagyobb = " + Float.max(f1, f2)); 

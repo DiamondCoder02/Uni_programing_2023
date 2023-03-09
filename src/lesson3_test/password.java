@@ -8,6 +8,7 @@ public class password {
         Scanner billentyu = new Scanner (System.in); 
         out.print("Mi a jelszó? "); 
         String jelszo = billentyu.next(); 
+        billentyu.close();
         out.println("A beírt jelszó: " + jelszo +"\n\n"); 
         if(jelszo.equals("alma")) out.println("\nA jelszó rendben van\n"); 
         else out.println("\nA beírt jelszó hibás!\n"); 

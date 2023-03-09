@@ -38,5 +38,6 @@ public class _2_3_linkedList {
         nev = billentyu.next(); 
         nevek.remove(nev); 
         out.println(nevek);
+        billentyu.close();
     }
 }
