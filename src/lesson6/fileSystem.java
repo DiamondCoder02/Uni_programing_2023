@@ -10,7 +10,7 @@ public class fileSystem {
     public static void main(String[] args) { 
         String szoveg = "Kipróbáljuk az ékezetes betűket: \nÁáÉéÍíÓóÖöŐőÚúÜüŰű\n"; 
         try { 
-            try (FileWriter ki = new FileWriter("file.txt")) { 
+            try (FileWriter ki = new FileWriter("Lesson6fileSystem.txt")) { 
                 //Fájl megnyitás) 
                 int i = 0; 
                 while(i < szoveg.length()) { 
@@ -28,7 +28,7 @@ public class fileSystem {
             //Hiba kiírása 
         } 
         try { 
-            try (FileReader be = new FileReader("file.txt")){   
+            try (FileReader be = new FileReader("Lesson6fileSystem.txt")){   
                 // Fájl megnyitás 
                 int c; 
                 while ((c = be.read()) != -1) { 

@@ -11,7 +11,7 @@ public class names {
         String nev; 
         Scanner billentyu = new Scanner (System.in, "ISO8859_2"); 
         try{ 
-            try (PrintStream file = new PrintStream("Names.txt")) { 
+            try (PrintStream file = new PrintStream("Lesson6Names.txt")) { 
                 out.print("Kérek egy nevet: "); 
                 nev = billentyu.nextLine(); 
                 while(nev.length()!=0){ 
@@ -24,7 +24,7 @@ public class names {
             System.err.println("Hiba: " + error.getMessage()); 
         } 
         billentyu.close();
-        try (Scanner file = new Scanner(new File("Names.txt"))) { 
+        try (Scanner file = new Scanner(new File("Lesson6Names.txt"))) { 
             while(file.hasNext()) { 
                 // Van még adat? 
                 out.println(file.nextLine()); 
