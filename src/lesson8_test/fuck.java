@@ -30,7 +30,7 @@ class Beolvas {
                 azon = billentyu.nextInt();
                 while (azon != 0) {
                     out.print("Kérek egy nevet: ");
-                    nev = billentyu.nextLine();
+                    nev = billentyu.next();
                     out.print("Kérek egy fizetést: ");
                     fizetes = billentyu.nextFloat();
                     file.printf("%d-%s-%d\n", azon, nev, fizetes);
